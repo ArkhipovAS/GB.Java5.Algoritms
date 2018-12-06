@@ -17,8 +17,26 @@ public class Lesson3 {
 //        st.push(8);
 //        System.out.println(st.peek());
 //        System.out.println(st);
-        Expression expr = new Expression("(1+2()<+{5)}>");
-        System.out.println(expr.checkBrackets());
+
+//        Expression expr = new Expression("(1+2()<+{5)}>");
+//        System.out.println(expr.checkBrackets());
+
+        MyArrayQueue<Integer> q = new MyArrayQueue<>();
+        q.enqueue(5);
+        q.enqueue(2);
+        q.enqueue(4);
+        q.enqueue(45);
+        q.enqueue(5);
+        System.out.println(q);
+        System.out.println(q.peekFront());
+        q.dequeue();
+        q.dequeue();
+        System.out.println(q.peekFront());
+        System.out.println(q);
+        q.dequeue();
+        q.dequeue();
+        q.dequeue();
+        System.out.println(q.isEmpty());
     }
 
 }
