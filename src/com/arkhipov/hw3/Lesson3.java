@@ -21,22 +21,26 @@ public class Lesson3 {
 //        Expression expr = new Expression("(1+2()<+{5)}>");
 //        System.out.println(expr.checkBrackets());
 
-        MyArrayQueue<Integer> q = new MyArrayQueue<>();
-        q.enqueue(5);
-        q.enqueue(2);
-        q.enqueue(4);
-        q.enqueue(45);
-        q.enqueue(5);
-        System.out.println(q);
-        System.out.println(q.peekFront());
-        q.dequeue();
-        q.dequeue();
-        System.out.println(q.peekFront());
-        System.out.println(q);
-        q.dequeue();
-        q.dequeue();
-        q.dequeue();
-        System.out.println(q.isEmpty());
+//        MyArrayQueue<Integer> q = new MyArrayQueue<>();
+//        q.enqueue(5);
+//        q.enqueue(2);
+//        q.enqueue(4);
+//        q.enqueue(45);
+//        q.enqueue(5);
+//        System.out.println(q);
+//        System.out.println(q.peekFront());
+//        q.dequeue();
+//        q.dequeue();
+//        System.out.println(q.peekFront());
+//        System.out.println(q);
+//        q.dequeue();
+//        q.dequeue();
+//        q.dequeue();
+//        System.out.println(q.isEmpty());
+
+        PostfixExpression expr = new PostfixExpression("3 2 + 2 *");
+        System.out.println(expr.calcExpression());
+
     }
 
 }
