@@ -41,16 +41,38 @@ public class Lesson3 {
 //        PostfixExpression expr = new PostfixExpression("3 2 + 2 *");
 //        System.out.println(expr.calcExpression());
 
-        MyFlipLine<String> st = new MyFlipLine<>();
-        st.enqueue("q");
-        st.enqueue("w");
-        st.enqueue("e");
-        st.enqueue("r");
-        st.enqueue("t");
-        st.enqueue("y");
-        System.out.println(st);
-        st.flipSt();
-        System.out.println(st);
+//        MyFlipLine<String> st = new MyFlipLine<>();
+//        st.enqueue("q");
+//        st.enqueue("w");
+//        st.enqueue("e");
+//        st.enqueue("r");
+//        st.enqueue("t");
+//        st.enqueue("y");
+//        System.out.println(st);
+//        st.flipSt();
+//        System.out.println(st);
+
+
+      MyArrayDequeue<Integer> deq = new MyArrayDequeue<>();
+        deq.enqueueRear(5);
+        deq.enqueueRear(2);
+        deq.enqueueRear(4);
+        deq.enqueueRear(45);
+        deq.enqueueRear(5);
+        System.out.println(deq + "add queue");
+        deq.enqueueFront(1);
+        deq.enqueueFront(12);
+        System.out.println(deq + " add front 2item");
+        deq.dequeueRear();
+        System.out.println(deq + " remove rear 1 item");
+        deq.dequeueFront();
+        System.out.println(deq + " remove front 1 item");
+        deq.dequeueFront();
+        System.out.println(deq + " remove front 1 item");
+        deq.enqueueRear(101);
+        System.out.println(deq + " add rear 1 item");
+        deq.enqueueFront(121);
+        System.out.println(deq + " add front 1 item");
 
 
 
