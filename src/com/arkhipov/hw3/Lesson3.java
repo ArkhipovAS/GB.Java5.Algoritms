@@ -41,16 +41,16 @@ public class Lesson3 {
 //        PostfixExpression expr = new PostfixExpression("3 2 + 2 *");
 //        System.out.println(expr.calcExpression());
 
-//        MyFlipLine<String> st = new MyFlipLine<>();
-//        st.enqueue("q");
-//        st.enqueue("w");
-//        st.enqueue("e");
-//        st.enqueue("r");
-//        st.enqueue("t");
-//        st.enqueue("y");
-//        System.out.println(st);
-//        st.flipSt();
-//        System.out.println(st);
+        MyFlipLine<String> st = new MyFlipLine<>();
+        st.enqueue("q");
+        st.enqueue("w");
+        st.enqueue("e");
+        st.enqueue("r");
+        st.enqueue("t");
+        st.enqueue("y");
+        System.out.println(st);
+        st.flipSt();
+        System.out.println(st);
 
 
       MyArrayDequeue<Integer> deq = new MyArrayDequeue<>();
