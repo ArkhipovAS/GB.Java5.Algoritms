@@ -1,4 +1,4 @@
-package com.arkhipov;
+package com.arkhipov.hw2;
 
 public class MyArrayList<Item extends Comparable<Item>> {
     private int size = 0;
