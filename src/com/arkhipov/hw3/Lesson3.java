@@ -38,8 +38,21 @@ public class Lesson3 {
 //        q.dequeue();
 //        System.out.println(q.isEmpty());
 
-        PostfixExpression expr = new PostfixExpression("3 2 + 2 *");
-        System.out.println(expr.calcExpression());
+//        PostfixExpression expr = new PostfixExpression("3 2 + 2 *");
+//        System.out.println(expr.calcExpression());
+
+        MyFlipLine<String> st = new MyFlipLine<>();
+        st.enqueue("q");
+        st.enqueue("w");
+        st.enqueue("e");
+        st.enqueue("r");
+        st.enqueue("t");
+        st.enqueue("y");
+        System.out.println(st);
+        st.flipSt();
+        System.out.println(st);
+
+
 
     }
 
