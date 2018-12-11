@@ -1,7 +1,7 @@
 package com.arkhipov.hw2;
 
-import com.arkhipov.MyArrayList;
-import com.arkhipov.MySortedArrayList;
+//import com.arkhipov.MyArrayList;
+//import com.arkhipov.MySortedArrayList;
 
 import java.awt.event.ItemEvent;
 import java.util.Random;

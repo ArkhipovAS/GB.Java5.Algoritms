@@ -3,8 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="f231127a-76d2-4b92-b1ca-8cf15a4af66b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arkhipov/hw2/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arkhipov/hw2/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arkhipov/hw5/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arkhipov/hw5/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB.Java5.Algoritms/com/arkhipov/MyArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB.Java5.Algoritms/com/arkhipov/MySortedArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB.Java5.Algoritms/com/arkhipov/hw2/Lesson2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB.Java5.Algoritms/com/arkhipov/hw3/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB.Java5.Algoritms/com/arkhipov/hw3/Lesson3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB.Java5.Algoritms/com/arkhipov/hw3/MyArrayStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB.Java5.Algoritms/com/arkhipov/hw4/MyLinkedList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB.Java5.Algoritms/com/arkhipov/hw4/MyLinkedList$MyLinkedListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB.Java5.Algoritms/com/arkhipov/hw4/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB.Java5.Algoritms/com/arkhipov/hw4/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB.Java5.Algoritms/com/arkhipov/hw4/MyLinkedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB.Java5.Algoritms/com/arkhipov/hw4/MyLinkedStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB.Java5.Algoritms/com/arkhipov/hw4/lesson4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/arkhipov/hw2/Lesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arkhipov/hw2/Lesson2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,81 +29,49 @@
     <session id="386538707">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2287" />
+          <entry key="java" value="2403" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2287" />
+          <entry key="JAVA" value="2403" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="14" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw3/Lesson3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw2/MySortedArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw5/MyArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw2/MyArrayList.java">
+        <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw5/Lesson5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw5/MySortedArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw3/MyArrayStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-              <folding>
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-              </folding>
+              <caret line="4" column="75" lean-forward="true" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -117,6 +97,12 @@
         <option value="$PROJECT_DIR$/src/com/arkhipov/Lesson2.java" />
         <option value="$PROJECT_DIR$/src/com/arkhipov/hw5/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/com/arkhipov/hw2/MyArrayList.java" />
+        <option value="$PROJECT_DIR$/src/com/arkhipov/hw5/MySortedArrayList.java" />
+        <option value="$PROJECT_DIR$/src/com/arkhipov/hw5/Program.java" />
+        <option value="$PROJECT_DIR$/src/com/arkhipov/hw5/Lesson5.java" />
+        <option value="$PROJECT_DIR$/src/com/arkhipov/hw4/Lesson4.java" />
+        <option value="$PROJECT_DIR$/src/com/arkhipov/hw4/lesson4.java" />
+        <option value="$PROJECT_DIR$/src/com/arkhipov/hw2/Lesson2.java" />
       </list>
     </option>
   </component>
@@ -137,8 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,12 +173,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544429471880" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544514533876" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -209,8 +195,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.arkhipov.hw2.Lesson2" />
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.arkhipov.hw5.Lesson5" />
       <module name="GB.Java5.Algoritms" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -218,11 +204,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -235,17 +216,18 @@
       <option name="presentableId" value="Default" />
       <updated>1543917676909</updated>
       <workItem from="1543917682124" duration="11337000" />
+      <workItem from="1544511316189" duration="1729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11991000" />
+    <option name="totallyTimeSpent" value="13720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -254,7 +236,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -263,7 +245,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -315,8 +297,15 @@
     <entry file="file://$PROJECT_DIR$/src/com/arkhipov/MySortedArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/com/arkhipov/MyArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/com/arkhipov/Lesson2.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw5/MySortedArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw5/lesson5.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw5/Lesson5.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw5/MyArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw3/Lesson3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw2/MySortedArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -324,17 +313,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw5/MyArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw2/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw3/MyArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw5/MySortedArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="75" lean-forward="true" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw4/lesson4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw2/Lesson2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arkhipov/hw5/Lesson5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
