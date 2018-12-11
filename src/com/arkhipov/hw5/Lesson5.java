@@ -2,11 +2,19 @@ package com.arkhipov.hw5;
 
 public class Lesson5 {
     public static void main(String[] args) {
-        double start = System.currentTimeMillis();
-        System.out.println(squaring(2, 3) + "squaring");
-        System.out.println("test");
-        double stop = System.currentTimeMillis();
-        System.out.println((stop - start) / 1000);
+//        double start = System.currentTimeMillis();
+//        System.out.println(squaringRec(4, 3) +" to degree Rec");
+//        double stop = System.currentTimeMillis();
+//        System.out.println((stop - start) / 1000);
+
+        Knapsack knapsack = new Knapsack();
+        knapsack.calcTakeItems();
+        knapsack.displayPack();
+
+        System.out.println("-------------Rec-------------------");
+        Knapsack knapsackRec = new Knapsack();
+        knapsackRec.calcTakeItemsRec(0);
+        knapsackRec.displayPackRec();
     }
     //n = 88365;
     //f(78365) = [8 + 8 + 3 + 6] + 5
@@ -23,10 +31,19 @@ public class Lesson5 {
 
     public static int squaring(int n, int a){
         int squar = a;
-        while (n > 0) {
+        while (n > 1) {
             squar = squar*a;
+            n--;
         }
         return squar;
+    }
+
+    public static int squaringRec(int n, int a){
+        if(n == 0){return 1;}
+        else if (n == 1){return a;}
+        else {
+            return squaringRec(n-1, a)*a;
+        }
     }
 
     //Дано натуральное число n. Найти сумму цифр числа n;
