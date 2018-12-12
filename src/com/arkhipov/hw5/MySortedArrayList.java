@@ -1,6 +1,7 @@
 package com.arkhipov.hw5;
 
-import com.arkhipov.hw2.MyArrayList;
+
+import com.arkhipov.MyArrayList;
 
 public class MySortedArrayList<Item extends Comparable<Item>> extends MyArrayList<Item> {
     public void insert(Item item) {
