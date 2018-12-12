@@ -5,6 +5,8 @@
 *.ear
 *.xml
 hs_err_pid*
+.idea/
+out
 
 ## Robovm
 /ios/robovm-build/
@@ -26,6 +28,7 @@ www-test/
 /android/libs/x86_64/
 /android/gen/
 .idea/
+out/
 *.ipr
 *.iws
 *.iml
