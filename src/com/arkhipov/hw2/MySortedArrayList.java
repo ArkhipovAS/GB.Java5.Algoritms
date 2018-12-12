@@ -1,4 +1,4 @@
-package com.arkhipov.hw2;
+package com.arkhipov;
 
 public class MySortedArrayList<Item extends Comparable<Item>> extends MyArrayList<Item> {
     public void insert (Item item){
