@@ -20,11 +20,17 @@ public class Lesson7 {
         g.addEdge(11,12);
 
 
+
         DepthFirstPaths dfs = new DepthFirstPaths(g, 0);
         System.out.println(dfs.hasPathTo(5));
         System.out.println(dfs.hasPathTo(12));
         System.out.println(dfs.pathTo(5));
-
-
+        BreadthFirstPaths bfs = new BreadthFirstPaths(g, 0);
+        System.out.println(bfs.hasPathTo(5));
+        System.out.println(bfs.hasPathTo(12));
+        System.out.println(bfs.pathTo(5));
+        System.out.println(bfs.distTo(5));
     }
+
+
 }

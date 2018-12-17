@@ -1,6 +1,5 @@
 package com.arkhipov.hw7;
 
-import java.awt.*;
 import java.util.LinkedList;
 
 public class DepthFirstPaths {
@@ -12,6 +11,7 @@ public class DepthFirstPaths {
         this.source = source;
         edgeTo = new int [g.vertexCount()];
         marked = new boolean[g.vertexCount()];
+        dfs(g, source);
     }
 
     private void dfs (Graph g, int v){
