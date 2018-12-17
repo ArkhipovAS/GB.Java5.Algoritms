@@ -2,23 +2,77 @@ package com.arkhipov.hw6;
 
 import java.security.Key;
 
-public class BST<Key extends Comparable<Key>, Value>  {
+public class BST<Key extends Comparable<Key>, Value>  { //binary symbol table
     private class Node{
         Key key;
         Value value;
         Node left;
         Node right;
         int size;
-        public Node (Key key, Value value, int size){
+        int level;
+        int levelr;
+        int levell;
+        boolean avltree;
+
+        public Node (Key key, Value value, int size, int level, int levelr, int levell, boolean avltree){
             this.key = key;
             this.value = value;
             this.size = size;
+            this.level = level;
+            this.levelr = levelr;
+            this.levell = levell;
+            this.avltree = avltree;
         }
     }
 
     private Node root = null;
 
     public boolean isEmpty(){return root == null;}
+
+    public int levelr () {return this.levelr(root);}
+
+    private int levelr(Node node){
+        if (node == null){
+            return 0;
+        }
+        else{
+            return node.levelr;
+        }
+    }
+
+    public int levell () {return this.levell(root);}
+
+    private int levell(Node node){
+        if (node == null){
+            return 0;
+        }
+        else{
+            return node.levell;
+        }
+    }
+
+    public boolean avltree() {return  this.avltree(root);}
+
+    private boolean avltree(Node node) {
+        if (node == null){
+            return false;
+        }
+        else{
+            return node.avltree;
+        }
+    }
+
+    public int level () {return this.level(root);}
+
+    private int level(Node node){
+        if (node == null){
+            return 0;
+        }
+        else{
+            return node.level;
+        }
+    }
+
     public int size (){
         return this.size(root);
     }
@@ -33,7 +87,7 @@ public class BST<Key extends Comparable<Key>, Value>  {
     }
 
     public Value get (Key key){
-        return get(root,key);
+        return get(root, key);
     }
 
     private Value get (Node node, Key key){
@@ -61,7 +115,7 @@ public class BST<Key extends Comparable<Key>, Value>  {
 
     private Node put(Node node, Key key, Value value){
         if (node == null){
-           return new Node(key, value, 1);
+           return new Node(key, value, 1, 1, 0, 0, true);
         }
 
         int cmp = key.compareTo(node.key);
@@ -70,12 +124,27 @@ public class BST<Key extends Comparable<Key>, Value>  {
         }
         else if(cmp < 0){
             node.left = put(node.left, key, value);
+            node.level = level(node.left) + 1;
+
         }
         else{
             node.right = put(node.right, key, value);
+            node.level = level(node.right) + 1;
+
+        }
+
+
+        if ((node.levell-node.levelr)>1 || (node.levelr-node.levell)>1){
+            root.avltree = false;
+        }
+        else {
+            root.avltree = true;
         }
 
         node.size = size(node.left) + size(node.right) + 1;
+
+
+
         return node;
     }
 
