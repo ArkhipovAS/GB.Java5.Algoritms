@@ -115,7 +115,7 @@ public class BST<Key extends Comparable<Key>, Value>  { //binary symbol table
 
     private Node put(Node node, Key key, Value value){
         if (node == null){
-           return new Node(key, value, 1, 1, 0, 0, true);
+           return new Node(key, value, 1, 0, 0, 0, true);
         }
 
         int cmp = key.compareTo(node.key);
@@ -124,26 +124,17 @@ public class BST<Key extends Comparable<Key>, Value>  { //binary symbol table
         }
         else if(cmp < 0){
             node.left = put(node.left, key, value);
-            node.level = level(node.left) + 1;
 
         }
         else{
             node.right = put(node.right, key, value);
-            node.level = level(node.right) + 1;
 
         }
 
-
-        if ((node.levell-node.levelr)>1 || (node.levelr-node.levell)>1){
-            root.avltree = false;
-        }
-        else {
-            root.avltree = true;
-        }
 
         node.size = size(node.left) + size(node.right) + 1;
-
-
+        node.level = Math.max(level(node.left), level(node.right)) + 1;
+        System.out.println("node.level: " + node.level);
 
         return node;
     }

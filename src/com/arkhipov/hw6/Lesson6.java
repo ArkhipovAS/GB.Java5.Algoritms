@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Lesson6 {
     public static void main(String[] args) {
-        final int maximum = 5;
+        final int maximum = 100;
         final int minimum = 0;
 
         Random random = new Random();
@@ -23,7 +23,7 @@ public class Lesson6 {
                 //assArr.put(generatedString, temp);
                 assArr.put(temp, temp);
 //                System.out.println("Key: " + generatedString + " + Value: " +assArr.get(generatedString) +" Level: " + assArr.level());
-                System.out.println("Key: " + temp + " Value: " +assArr.get(temp) +" Level:" + assArr.level() + " LL/"+assArr.levell() + " LR/" +assArr.levelr() + " AVLtree: " + assArr.avltree());
+                System.out.println("Key: " + temp + " Value: " +assArr.get(temp));
 //                System.out.println(assArr.levell() + " " +assArr.levelr() + " AVLtree: " + assArr.avltree());
                 templevel = assArr.level();
             }
